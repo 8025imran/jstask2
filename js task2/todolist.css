@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    background-color: rgb(243, 234, 223);
+}
+.container{
+    background-color: aquamarine;
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    border-bottom: 0.6px solid white;
+    margin-bottom: 0.5rem;
+}
+.addtask{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.8rem 0;
+
+}
+.addtask input{
+    width: 12rem;
+    padding: 0.6rem 0.5rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 2px;
+}
+.addtask input:hover{
+    
+}
+ button{
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: rgba(247, 243, 0,0.7);
+}
+.addtask button:hover{
+    box-shadow: 2px 2px 5px;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid white;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    padding: 5px;
+    border-radius: 5px;
+}
