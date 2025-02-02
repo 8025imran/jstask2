@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(53,67,82);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: relative;
+}
+.main{
+  
+}
+.header{
+  background-color: rgb(52,73,94);
+  padding: 5px;
+  color: white;
+  width: 350px;
+  height: 40px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 5px 5px 5px rgb(40, 52, 64);
+}
+.header p{
+  font-size: 1.2rem;
+  font-weight: 750;
+}
+h1{
+  font-size: 3.5rem;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  
+}
+.container1 {
+  height: 25vh;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 80px;
+  background-color: white;
+  text-align: start;
+  display: flex;
+  align-items: center;
+
+}
+.container1 input{
+  width: 100%;
+  border-bottom: 2px solid gray;
+  background-color: white;
+  font-size: 20px;
+  padding: 15px 5px;
+}
+#startContainer{
+  height: 300px;
+  width: 50%;
+  margin: auto;
+  
+}
+#startBtn{
+  margin-top: 20vh;
+  width: 140px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(42,202,223);
+  cursor: pointer;
+}
+#startBtn:hover{
+  border: 6px solid rgb(42,202,223);
+}
+#quizContainer{
+  margin: 15px;
+  background-color: white;
+  height: 40vh;
+  width: 60%;
+  margin: auto;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+.timer{
+  padding-top: 20px;
+  padding-right: 15px;
+}
+#question{
+ margin-top: 15px;
+  
+}
+#resultContainer{
+  width: 60%;
+  height: 35vh;
+  background-color: white;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+.hidden {
+  display: none;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding:0 30px;
+  border-radius: 10px;
+  
+
+}
+.timer {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#options{
+  margin-top: 15px;
+  text-align: start;
+  
+}
+#nextBtn {
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: not-allowed;
+  margin-top: 15px;
+}
+#nextBtn.enabled {
+  background-color: rgb(19,180,149);
+  cursor: pointer;
+  border-radius: 5px;
+}
+  

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+        <div class="header">
+            <p>Developed By Muhammad Sufyan</p>
+        </div>
+        <h1>Quizz App JS</h1>
+        <div id="startContainer">
+            <div class="container1" >
+                <input type="text" id="username" placeholder="Your Name">
+                
+            </div>
+            <button id="startBtn" class="hidden" onclick="startQuiz()">Start Quiz</button>
+        </div>
+    
+    <div class="container hidden" id="quizContainer">
+        <div class="timer">
+            Time Left: <span id="seconds">60</span> sec
+        </div>
+        <h3 id="question"></h3>
+        <div class="options" id="options"></div>
+        <button id="nextBtn" onclick="nextQuestion()" disabled>Next</button>
+    </div>
+    
+    <div class="container hidden" id="resultContainer"></div>
+
+    <script src="./script.js">
+        
+    </script>
+</body>
+</html>
